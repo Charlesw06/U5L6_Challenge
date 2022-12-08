@@ -30,10 +30,10 @@ public class BankApp {
         if (action1.equals("s")) {
             return purchase(action2);
         }
-        if (action1.equals("p")) {
+        if (action1.equals("r")) {
             return returnBagels();
         }
-        if (action1.equals("d")) {
+        if (action1.equals("p")) {
 
         }
         if (action1.equals("i")) {
@@ -70,6 +70,9 @@ public class BankApp {
         return "\n\n=========================\nYou returned " + userBagels + "successfully!\n=========================";
     }
 
+    public String makePayment(){
+
+    }
     public String deposit() {
         
     }
