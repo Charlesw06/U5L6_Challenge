@@ -1,4 +1,3 @@
-//Bank.java
 public class Bank
 {
     private int onHandCash;

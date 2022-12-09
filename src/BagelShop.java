@@ -95,9 +95,11 @@ public class BagelShop
         str += "\nProfit: " + profit;
         str += "\nInventory: " + inventory;
         str += "\nItem price: " + bagelPrice;
-
-        // omitting the bank instance variable from the String
         return str;
+    }
+
+    public int getInventory() {
+        return inventory;
     }
 }
 

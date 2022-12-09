@@ -59,5 +59,13 @@ public class CreditCard
         str += "\nPIN: " + personalPIN;
         return str;
     }
+
+    public void setPersonalPIN(String personalPIN) {
+        this.personalPIN = personalPIN;
+    }
+
+    public String getPersonalPIN() {
+        return personalPIN;
+    }
 }
 
